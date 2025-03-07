@@ -5,7 +5,7 @@ import img2 from "../img/img2.webp";
 export const Hero = () => {
   return (
     <div className="max-w-[1240px] mx-auto">
-      <div className="container flex flex-col items-center justify-center mt-6 lg:mt-20 p-4">
+      <div className="container mx-auto flex flex-col items-center justify-center mt-6 lg:mt-20 p-4">
         <h1 className="text-3xl lg:text-6xl font-semibold ">
           Virtual VR for developers
         </h1>
