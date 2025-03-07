@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Roboto", sans-serif;
+  color-scheme: dark;
+  color: white;
+}
+
+.secundaria {
+  font-family: "Bakbak One", sans-serif;
+}
