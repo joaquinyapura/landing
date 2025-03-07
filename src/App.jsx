@@ -1,3 +1,4 @@
+import { Features } from "./assets/Components/Features";
 import { Hero } from "./assets/Components/Hero";
 import { Navbar } from "./assets/Components/Navbar";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Features />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from "../img/img1.webp";
+import img2 from "../img/img2.webp";
 
 export const Hero = () => {
   return (
@@ -38,7 +39,7 @@ export const Hero = () => {
             <img src={img1} alt="" srcset="" />
           </div>
           <div className="w-[400px] lg:w-[600px] border border-dashed border-orange-900 border-w-2">
-            <img src={img1} alt="" srcset="" />
+            <img src={img2} alt="" srcset="" className="" />
           </div>
         </div>
       </div>
