@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 
 export const Workflow = () => {
   return (
-    <div className=" min-h-[800px] flex flex-col items-center mx-5 ">
+    <div className=" min-h-[600px] flex flex-col items-center mx-5 ">
       <div>
         <h2 className="text-3xl lg:text-6xl font-bold mt-10 lg:mt-20">
           Acelerate your
@@ -21,7 +21,7 @@ export const Workflow = () => {
 
         <div className="w-1/1 lg:w-1/2 flex flex-col gap-5 mt-10">
           {checklistItems.map((e, i) => (
-            <div className="flex gap-6">
+            <div key={i} className="flex gap-6">
               <div className="w-5 h-5 md:w-10 md:h-10 bg-neutral-900 text-green-600 rounded-full  flex justify-center items-center hover:bg-green-900 transition-all ease-out duration-500">
                 <Check />
               </div>

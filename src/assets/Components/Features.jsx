@@ -2,7 +2,7 @@ import { features } from "../../Constants/index";
 
 export const Features = () => {
   return (
-    <div className="min-h-[800px]  mt-10 lg:mt-20 ">
+    <div className="min-h-[600px]  mt-10 lg:mt-20 ">
       <div className="text-center">
         <span className="bg-neutral-900 text-orange-700 text-sm rounded-full p-2 font-bold">
           FEATURES

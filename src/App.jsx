@@ -1,6 +1,7 @@
 import { Features } from "./assets/Components/Features";
 import { Hero } from "./assets/Components/Hero";
 import { Navbar } from "./assets/Components/Navbar";
+import { Pricing } from "./assets/Components/Pricing";
 import { Workflow } from "./assets/Components/Workflow";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Features />
       <Workflow />
+      <Pricing />
     </>
   );
 }
